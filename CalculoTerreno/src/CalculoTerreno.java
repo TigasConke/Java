@@ -1,4 +1,5 @@
-
+//Escreva um programa que efetue a leitura dos valores de largura e comprimento de um terreno. Se o terreno for retangular, calcula os valores de seu perímetro e sua área. O programa exibe, no mínimo, as seguintes 
+//informações para o usuário: largura e comprimento informados, sobre o formato do terreno, seu perímetro e área. O arquivo deve se chamar CalculoTerreno.java
 public class CalculoTerreno {
 
 	public static void main(String[] args) {

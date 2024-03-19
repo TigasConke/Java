@@ -14,7 +14,7 @@ public class Idade {
 		System.out.print("Nome: ");
 		nome1 = st.nextLine();
 		System.out.print("Idade: ");
-		idade1 = sc.nextDouble();
+		idade1 = sc.nextInt();
 		System.out.println();
 		
 		
@@ -23,7 +23,7 @@ public class Idade {
 		System.out.print("Nome: ");
 		nome2 = st.nextLine();
 		System.out.print("Idade: ");
-		idade2 = sc.nextDouble();
+		idade2 = sc.nextInt();
 		System.out.println();
 		
 		media = (idade1 + idade2)/2;

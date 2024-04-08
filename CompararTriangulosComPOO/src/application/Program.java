@@ -11,7 +11,6 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double p;
 		Triangulo x, y; 
 		x = new Triangulo();
 		y = new Triangulo();
@@ -26,16 +25,9 @@ public class Program {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
-		/* Triangulo X */
-		p = (x.a + x.b + x.c) / 2; //calculo de p para o triangulo X 
-		double areaX = p * (p - x.a) * (p-x.b) * (p-x.c); //calcula primeiro o que fica dentro da raiz
-		areaX = Math.sqrt(areaX); // depois coloca o valor calculado na linha anterior na raiz
-		
-		/* Triangulo Y */
-		p = (y.a + y.b + y.c)/2; //calculo de p para o triangulo Y 
-		double areaY = p * (p - y.a) * (p-y.b) * (p-y.c); //calcula primeiro o que fica dentro da raiz
-		areaY = Math.sqrt(areaY); // depois coloca o valor calculado na linha anterior na raiz
-		
+		/* a variavel areaX e areaY chamam o método que realiza o calculo da área */
+		double areaX = x.area();
+		double areaY = y.area();
 		System.out.println("Área do triângulo X: " + areaX);
 		System.out.println("Área do triângulo Y: " + areaY);
 		

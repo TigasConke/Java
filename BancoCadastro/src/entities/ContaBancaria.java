@@ -64,11 +64,11 @@ public class ContaBancaria {
 	public String toString() {
 		
 		return "Conta: "
-				+ numeroConta
-				+", Titular: "
-				+ nome
-				+", Saldo: R$"
-				+String.format("%.2f", saldo);
+			+ numeroConta
+			+", Titular: "
+			+ nome
+			+", Saldo: R$"
+			+String.format("%.2f", saldo);
 	}
 	
 }
